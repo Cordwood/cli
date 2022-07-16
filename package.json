@@ -1,0 +1,35 @@
+{
+    "name": "cordwood-cli",
+    "version": "1.0.0",
+    "description": "A CLI for Cordwood plugin devs.",
+    "main": "./dist/index.js",
+    "bin": "./dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cordwood/cli.git"
+    },
+    "keywords": [
+        "cli"
+    ],
+    "author": "Alyxia Sother",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Cordwood/cli/issues"
+    },
+    "homepage": "https://github.com/Cordwood/cli#readme",
+    "devDependencies": {
+        "@types/inquirer": "^8.2.1",
+        "@types/node": "^18.0.5",
+        "prettier": "^2.7.1"
+    },
+    "dependencies": {
+        "commander": "^9.4.0",
+        "inquirer": "^9.0.1",
+        "ora": "^6.1.2",
+        "typescript": "^4.7.4"
+    }
+}
